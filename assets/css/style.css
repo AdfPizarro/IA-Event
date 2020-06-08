@@ -1,8 +1,41 @@
+.nav{
+  background: none;
+}
 
 .top-social-media{
   height: 30px;
 }
 
+h1{
+  font-family: "Cocogoose Pro", sans-serif;
+
+}
+
+.header-container{
+  background:  url("../images/neural.png") no-repeat center;
+  background-size: cover;
+  height: 400px;
+}
+
+.subtitle{
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+
+}
+
+
+.header-text-container{
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.alpha{
+  background: linear-gradient( 180deg, rgba(255, 255, 255, 0.99), rgba(200, 200, 200, 0.85));
+  height: 100%;
+  width: 100%;
+}
 /* Helper Classes*/
 
 .l-gray{
@@ -16,6 +49,10 @@
 .d-gray{
   background: #272a31;
   color: #d3d3d3;
+}
+
+.font-orange{
+  color: #ec5242;
 }
 
 .flex{ display: flex;}
