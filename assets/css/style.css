@@ -1,0 +1,49 @@
+/* Helper Classes*/
+
+.l-gray{color: #d3d3d3;}
+.orange{color: #ec5242;}
+.d-gray{color: #272a31;}
+
+.flex{ display: flex;}
+
+/* Fonts */
+@font-face {
+  font-family: "Cocogoose Pro Italic";
+  src: url('../fonts/Cocogoose Pro Italic-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Light Italic";
+  src: url('../fonts/Cocogoose Pro Light Italic-trial-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Light";
+  src: url('../fonts/Cocogoose Pro Light-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Semilight Italic";
+  src: url('../fonts/Cocogoose Pro Semilight Italic-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Semilight";
+  src: url('../fonts/Cocogoose Pro Semilight-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Thin Italic";
+  src: url('../fonts/Cocogoose Pro Thin Italic-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Thin";
+  src: url('../fonts/Cocogoose Pro Thin-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro UltraLight Italic";
+  src: url('../fonts/Cocogoose Pro UltraLight Italic-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro Ultralight";
+  src: url('../fonts/Cocogoose Pro Ultralight-trial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: "Cocogoose Pro";
+  src: url('../fonts/Cocogoose Pro-trial.ttf')  format('truetype');
+}
