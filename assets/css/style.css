@@ -8,7 +8,10 @@
 
 h1{
   font-family: "Cocogoose Pro", sans-serif;
+}
 
+body{
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-collapse{
@@ -20,7 +23,7 @@ h1{
 .header-container{
   background:  url("../images/neural.png") no-repeat center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
 }
 
 .subtitle{
@@ -30,6 +33,28 @@ h1{
 
 }
 
+.info,
+.location{
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 20px 20px 0px 20px;
+  color: black;
+}
+
+.location{
+  margin-top: 5px;
+  flex-direction: column;
+}
+
+.location-info{
+  color: #666;
+  margin: 5px 0px;
+}
+
+.info-text{
+  margin-bottom: 10px;
+}
 
 .header-text-container{
   flex-direction: column;
