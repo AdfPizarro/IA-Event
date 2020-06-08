@@ -1,8 +1,22 @@
+
+.top-social-media{
+  height: 30px;
+}
+
 /* Helper Classes*/
 
-.l-gray{color: #d3d3d3;}
-.orange{color: #ec5242;}
-.d-gray{color: #272a31;}
+.l-gray{
+  background: #d3d3d3;
+  color: #272a31;
+}
+.orange{
+  background: #ec5242;
+  color: white;
+}
+.d-gray{
+  background: #272a31;
+  color: #d3d3d3;
+}
 
 .flex{ display: flex;}
 
