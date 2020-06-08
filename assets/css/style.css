@@ -11,6 +11,12 @@ h1{
 
 }
 
+.navbar-collapse{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 .header-container{
   background:  url("../images/neural.png") no-repeat center;
   background-size: cover;
