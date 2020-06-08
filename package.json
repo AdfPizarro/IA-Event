@@ -1,0 +1,20 @@
+{
+  "name": "ia-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lintcss": "stylelint assets/css",
+    "lintcss:fix": "stylelint --fix assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdfPizarro/IA-Event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdfPizarro/IA-Event/issues"
+  },
+  "homepage": "https://github.com/AdfPizarro/IA-Event#readme"
+}
