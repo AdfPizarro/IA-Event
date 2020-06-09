@@ -92,10 +92,12 @@ body{
 }
 
 .program-container,
-.speakers-container{
+.speakers-container,
+.partners-container{
   flex-direction: column;
   align-items: center;
   padding: 20px;
+
 }
 
 .p-element{
@@ -111,13 +113,17 @@ body{
   margin: 0px 10px;
 }
 
+.p-elements-container{
+  width: 100%;
+}
+
 .speakers-title{
   color: black;
 }
 
 .image-container{
-
-  width: 140px;
+  box-sizing: border-box;
+  min-width: 140px;
   height: 140px;
   position: relative;
 
@@ -142,25 +148,74 @@ body{
 .info-container{
   flex-direction: column;
   width: 100%;
+  margin-left: 20px;
 }
 
 .speaker{
   justify-content: space-between;
-  align-content: space-between;
   width: 100%;
   position: relative;
+  margin-top: 20px;
 
 }
 
 .speaker-name{
+  font-family: 'Cocogoose Pro Ligh', sans-serif;
   color: black;
+  font-size:  20px;
+  margin-top: 20px
 }
 
-.speakers-inner-container{
-  width: 100%;
+
+.conference-info{
+  font-family: "Lato". sans-serif;
+  font-style: italic;
+  font-size: 14px;
 }
 
+.conference-bar{
+  margin: 10px 0px;
+  height: 2px;
+  width: 50px;
+}
 
+.speaker-info{
+  font-family: "Lato". sans-serif;
+  font-size: 14px;
+}
+
+.partners-images{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-img{
+  width: 50%;
+}
+
+footer{
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.main-logo {
+  color: black;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.main-logo:hover{
+  color: #d3d3d3;
+
+}
+
+.copyrigth{
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
 /* Helper Classes*/
 
 .l-gray{
@@ -182,6 +237,10 @@ body{
 
 .font-d-gray{
   color: #272a31;
+}
+
+.font-l-gray{
+  color: #d3d3d3;
 }
 
 .flex{ display: flex;}
