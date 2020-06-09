@@ -136,6 +136,14 @@ body{
   padding: 20px;
 }
 
+.nv{
+  padding: 3.5vh 0px;
+}
+
+.gg{
+  padding: 2vh 0px;
+}
+
 .p-element-title{
   margin: 0px 10px;
 }
@@ -219,6 +227,7 @@ body{
 
 .partner-img{
   width: 50%;
+  height: 50;
 }
 
 footer{
@@ -289,6 +298,10 @@ footer{
 
   .p-elements-container{
     margin-top: 20px;
+  }
+
+  .speakers-grid{
+    width: 100%;
   }
 
 }
