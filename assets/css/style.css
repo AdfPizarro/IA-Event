@@ -112,8 +112,54 @@ body{
 }
 
 .speakers-title{
-    color: black;
+  color: black;
 }
+
+.image-container{
+
+  width: 140px;
+  height: 140px;
+  position: relative;
+
+}
+
+.top-img{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0px;
+  right:  0px;
+}
+
+.back-img{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left:  0px;
+  top: 0;
+}
+
+.info-container{
+  flex-direction: column;
+  width: 100%;
+}
+
+.speaker{
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+  position: relative;
+
+}
+
+.speaker-name{
+  color: black;
+}
+
+.speakers-inner-container{
+  width: 100%;
+}
+
 
 /* Helper Classes*/
 
