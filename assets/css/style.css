@@ -2,8 +2,17 @@
   background: none;
 }
 
+
 .top-social-media{
   height: 30px;
+  justify-content: flex-end;
+}
+
+.icons-container{
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+  margin-right: 3%;
 }
 
 h1{
@@ -224,6 +233,42 @@ footer{
   font-family: "Lato", sans-serif;
   font-style: italic;
 }
+
+/* Media query */
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (min-width: 768px) {
+  .alpha{
+    height: 100vh
+  }
+
+  h1{
+    font-size: 48px;
+  }
+  .subtitle{
+    font-size: 60px;
+  }
+  .header-text-container{
+    align-items: flex-start;
+    align-content: space-between;
+
+  }
+
+  .info,
+  .location{
+    max-width: 500px;
+  }
+
+  .nav-item{
+    display: inline;
+  }
+
+}
+
 /* Helper Classes*/
 
 .l-gray{
