@@ -10,8 +10,20 @@ h1{
   font-family: "Cocogoose Pro", sans-serif;
 }
 
+h2{
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+h3{
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-size: 18px;
+}
+
 body{
   font-family: "Lato", sans-serif;
+  min-width: 320px;
 }
 
 .navbar-collapse{
@@ -23,7 +35,7 @@ body{
 .header-container{
   background:  url("../images/neural.png") no-repeat center;
   background-size: cover;
-  height: 500px;
+
 }
 
 .subtitle{
@@ -66,7 +78,38 @@ body{
   background: linear-gradient( 180deg, rgba(255, 255, 255, 0.99), rgba(200, 200, 200, 0.85));
   height: 100%;
   width: 100%;
+  padding-bottom: 20px;
 }
+
+.program-container{
+
+}
+
+.bar{
+  margin-top: 5px;
+  height: 3px;
+  width: 50px;
+}
+
+.program-container{
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.p-element{
+  background-color: rgba(255, 255, 255, 0.15);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 15px;
+
+}
+
+.p-element-title{
+  margin: 0px 10px;
+}
+
 /* Helper Classes*/
 
 .l-gray{
