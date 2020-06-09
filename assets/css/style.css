@@ -303,6 +303,10 @@ footer{
   .speakers-grid{
     width: 100%;
   }
+   .prog-title{
+    flex-direction: column;
+    align-items: center;
+   }
 
 }
 
