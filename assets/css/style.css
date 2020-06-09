@@ -35,6 +35,10 @@ body{
   min-width: 320px;
 }
 
+table{
+  text-align: center;
+}
+
 .navbar-collapse{
   padding: 10px;
   border-radius: 10px;
@@ -67,7 +71,8 @@ body{
 }
 
 .info,
-.location{
+.location,
+.ticlet-table-container{
   padding: 10px;
   border-radius: 5px;
   background: #fff;
@@ -114,11 +119,16 @@ body{
 
 .program-container,
 .speakers-container,
-.partners-container{
+.partners-container,
+.tickets-container{
   flex-direction: column;
   align-items: center;
   padding: 20px;
 
+}
+
+.ticlet-table-container{
+  box-shadow: 5px 5px #272a31;
 }
 
 .p-inner{
@@ -311,12 +321,47 @@ footer{
 
 }
 
+/* Tickets page*/
+.tickets-title{
+  margin-top: 30px
+}
+
+.ticlet-step{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  border-radius:  40px;
+  justify-content: space-evenly;
+}
+
+.step-number{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+.table-radio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-date{
+  margin-bottom: 5px;
+}
+
 /* Helper Classes*/
+.bg-white{
+  background: white;
+}
 
 .l-gray{
   background: #d3d3d3;
   color: #272a31;
 }
+
 .orange{
   background: #ec5242;
   color: white;
