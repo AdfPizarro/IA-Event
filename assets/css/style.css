@@ -47,6 +47,16 @@ body{
 
 }
 
+.n-element{
+  padding: 20px;
+  color: black;
+}
+
+.n-element:hover{
+  color: #ec5242;
+  text-decoration: none;
+}
+
 .subtitle{
   font-family: "Cocogoose Pro Light", sans-serif;
   font-weight: 700;
@@ -109,7 +119,7 @@ body{
 
 }
 
-.p-element{
+.p-inner{
   background-color: rgba(255, 255, 255, 0.15);
   justify-content: space-between;
   align-items: center;
@@ -265,6 +275,20 @@ footer{
 
   .nav-item{
     display: inline;
+  }
+
+  .p-inner{
+    flex-direction: column;
+    padding: 15px;
+    margin: 0px 5px;
+  }
+
+  .p-element{
+    padding: 0px;
+  }
+
+  .p-elements-container{
+    margin-top: 20px;
   }
 
 }
