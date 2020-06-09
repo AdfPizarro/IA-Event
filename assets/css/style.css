@@ -109,6 +109,14 @@ body{
 
 }
 
+.intel{
+  padding: 30px;
+}
+
+.tf{
+  padding: 20px;
+}
+
 .p-element-title{
   margin: 0px 10px;
 }
