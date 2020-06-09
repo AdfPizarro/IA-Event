@@ -248,6 +248,17 @@ table{
   height: 50;
 }
 
+.submit{
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 30px;
+  margin-left: 50%;
+  border: none;
+
+
+
+}
+
 footer{
   justify-content: space-around;
   padding: 30px;
