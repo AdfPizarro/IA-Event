@@ -91,7 +91,8 @@ body{
   width: 50px;
 }
 
-.program-container{
+.program-container,
+.speakers-container{
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -108,6 +109,10 @@ body{
 
 .p-element-title{
   margin: 0px 10px;
+}
+
+.speakers-title{
+    color: black;
 }
 
 /* Helper Classes*/
@@ -127,6 +132,10 @@ body{
 
 .font-orange{
   color: #ec5242;
+}
+
+.font-d-gray{
+  color: #272a31;
 }
 
 .flex{ display: flex;}
