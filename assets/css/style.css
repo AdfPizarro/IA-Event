@@ -397,11 +397,15 @@ footer{
   .p-inner{
     flex-direction: column;
     padding: 15px;
-    margin: 0px 5px;
+    margin: 5px 5px;
+    height: 230px;
+    justify-content: flex-start;
   }
 
   .p-element{
     padding: 0px;
+
+
   }
 
   .p-elements-container{
