@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AdfPizarro/IA-Event/issues"
   },
-  "homepage": "https://github.com/AdfPizarro/IA-Event#readme"
+  "homepage": "https://github.com/AdfPizarro/IA-Event#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  }
 }
