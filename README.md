@@ -1,4 +1,4 @@
-# News week
+# I.A Event
 ![screenshot](./app_screenshot.png)
 
 Website created to advertise an event , conferences about the I.A
