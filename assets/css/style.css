@@ -1,0 +1,509 @@
+.nav {
+  background: none;
+}
+
+.top-social-media {
+  height: 30px;
+  justify-content: flex-end;
+}
+
+.icons-container {
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+  margin-right: 3%;
+}
+
+h1 {
+  font-family: "Cocogoose Pro", sans-serif;
+}
+
+h2 {
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+h3 {
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 320px;
+}
+
+table {
+  text-align: center;
+}
+
+.navbar-collapse {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header-container {
+  background: url("../images/neural.png") no-repeat center;
+  background-size: cover;
+}
+
+.n-element {
+  padding: 20px;
+  color: black;
+}
+
+.n-element:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-family: "Cocogoose Pro Light", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.info,
+.location,
+.ticlet-table-container-md,
+.ticlet-table-container-sm {
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 20px 20px 0 20px;
+  color: black;
+}
+
+.bar-table {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.location {
+  margin-top: 5px;
+  flex-direction: column;
+}
+
+.location-info {
+  color: #666;
+  margin: 5px 0;
+}
+
+.info-text {
+  margin-bottom: 10px;
+}
+
+.header-text-container {
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.alpha {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(200, 200, 200, 0.85));
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.bar {
+  margin-top: 5px;
+  height: 3px;
+  width: 50px;
+}
+
+.program-container,
+.speakers-container,
+.partners-container,
+.tickets-container,
+.about-container,
+.pictures-container {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ticlet-table-container-md {
+  box-shadow: 5px 5px #272a31;
+}
+
+.p-inner {
+  background-color: rgba(255, 255, 255, 0.15);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.intel {
+  padding: 30px;
+}
+
+.tf {
+  padding: 20px;
+}
+
+.nv {
+  padding: 3.5vh 0;
+}
+
+.gg {
+  padding: 2vh 0;
+}
+
+.p-element-title {
+  margin: 0 10px;
+}
+
+.p-elements-container {
+  width: 100%;
+}
+
+.speakers-title {
+  color: black;
+}
+
+.image-container {
+  box-sizing: border-box;
+  min-width: 140px;
+  height: 140px;
+  position: relative;
+}
+
+.top-img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.back-img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.info-container {
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.speaker {
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.speaker-name {
+  font-family: 'Cocogoose Pro Ligh', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.conference-info {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.conference-bar {
+  margin: 10px 0;
+  height: 2px;
+  width: 50px;
+}
+
+.speaker-info {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.partners-images {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-img {
+  width: 50%;
+  height: 50;
+}
+
+.submit {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 30px;
+  margin-left: 50%;
+  border: none;
+}
+
+footer {
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.main-logo {
+  color: black;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.main-logo:hover {
+  color: #d3d3d3;
+}
+
+.copyrigth {
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+/* About */
+
+.about-elements {
+  margin-top: 30px;
+}
+
+.about {
+  text-align: center;
+}
+
+.info-c {
+  text-align: center;
+  margin-top: 20px;
+  border: solid 1px #a0a0a0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.more {
+  width: 100;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Previous events */
+.pictures-previous,
+.picture-main-c {
+  width: 100%;
+}
+
+.picture-main-c {
+  padding: 10px;
+}
+
+.picture-gradient {
+  height: 300px;
+  background: rgba(236, 82, 66, 0.5);
+  width: 100%;
+}
+
+.picture-container {
+  padding: 0;
+}
+
+.picture-info {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pic-year {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.pic-info {
+  font-size: 1.1rem;
+}
+
+.img1 {
+  background: url("../images/c1.jpg") no-repeat center;
+}
+
+.img2 {
+  background: url("../images/c2.jpg") no-repeat center;
+}
+
+.img3 {
+  background: url("../images/c3.jpg") no-repeat center;
+}
+
+.img4 {
+  background: url("../images/c4.jpg") no-repeat center;
+}
+
+/* Media query */
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 60px;
+  }
+
+  .header-text-container {
+    align-items: flex-start;
+    align-content: space-between;
+  }
+
+  .info,
+  .location {
+    max-width: 500px;
+  }
+
+  .nav-item {
+    display: inline;
+  }
+
+  .p-inner {
+    flex-direction: column;
+    padding: 15px;
+    margin: 5px 5px;
+    height: 230px;
+    justify-content: flex-start;
+  }
+
+  .p-element {
+    padding: 0;
+  }
+
+  .p-elements-container {
+    margin-top: 20px;
+  }
+
+  .speakers-grid {
+    width: 100%;
+  }
+
+  .prog-title {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Tickets page */
+.tickets-title {
+  margin-top: 30px;
+}
+
+.ticlet-step {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 40px;
+  justify-content: space-evenly;
+}
+
+.step-number {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.table-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-date {
+  margin-bottom: 5px;
+}
+
+/* Helper Classes */
+.bg-white {
+  background: white;
+}
+
+.l-gray {
+  background: #d3d3d3;
+  color: #272a31;
+}
+
+.orange {
+  background: #ec5242;
+  color: white;
+}
+
+.d-gray {
+  background: #272a31;
+  color: #d3d3d3;
+}
+
+.font-orange {
+  color: #ec5242;
+}
+
+.font-d-gray {
+  color: #272a31;
+}
+
+.font-l-gray {
+  color: #d3d3d3;
+}
+
+.flex { display: flex; }
+
+/* Fonts */
+@font-face {
+  font-family: "Cocogoose Pro Italic";
+  src: url('../fonts/Cocogoose Pro Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Light Italic";
+  src: url('../fonts/Cocogoose Pro Light Italic-trial-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Light";
+  src: url('../fonts/Cocogoose Pro Light-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Semilight Italic";
+  src: url('../fonts/Cocogoose Pro Semilight Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Semilight";
+  src: url('../fonts/Cocogoose Pro Semilight-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Thin Italic";
+  src: url('../fonts/Cocogoose Pro Thin Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Thin";
+  src: url('../fonts/Cocogoose Pro Thin-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro UltraLight Italic";
+  src: url('../fonts/Cocogoose Pro UltraLight Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro Ultralight";
+  src: url('../fonts/Cocogoose Pro Ultralight-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "Cocogoose Pro";
+  src: url('../fonts/Cocogoose Pro-trial.ttf')  format('truetype');
+}
